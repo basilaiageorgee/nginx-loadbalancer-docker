@@ -5,6 +5,9 @@ This project demonstrates a fully configured web server stack featuring:
 - An **Nginx reverse proxy** to load balance traffic across backend servers.
 - A secure HTTPS connection to the Nginx proxy using a **self-signed TLS certificate**.
 
+  nginx![Untitled](https://github.com/user-attachments/assets/feb320fd-2edd-4890-9e59-1913949f2487)
+
+
 ---
 
 ## 🛠️ Features
@@ -20,4 +23,4 @@ This project demonstrates a fully configured web server stack featuring:
 ### Managing Nginx
 - **Start Nginx**  
   ```bash
-  nginx
+
