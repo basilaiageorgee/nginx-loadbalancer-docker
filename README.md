@@ -24,10 +24,10 @@ This project demonstrates a fully configured web server stack featuring:
 
 To enable HTTPS for your Nginx reverse proxy, follow these steps:
 
-``
+```
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
   -keyout nginx-selfsigned.key -out nginx-selfsigned.crt
-``
+```
 
 Write your SSL certificate and key in nginx.conf file
 
