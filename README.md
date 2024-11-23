@@ -30,3 +30,8 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
 ``
 
 Write your SSL certificate and key in nginx.conf file
+
+### Build and start the project
+```
+docker-compose up --build
+```
